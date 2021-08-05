@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import 'variables';
+@import '~bootstrap/scss/bootstrap';
+// @import '~jquery-ui/themes/base/all.css';
+// @import '~material-design-icons/iconfont/material-icons.css';
+
+.breaking-news .nav .nav-item .nav-link{
+  padding: 0 5px;
+  color: #23f;
+}
+
+.breaking-news {
+  width: 100%;
+  z-index: 101;
+  background:  #eee;
+  display: block;
+}
+.news {
+  background: transparent;
+  text-align: center;
+}
+.news a {
+  color: #60A561;
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-size: 13px;
+}
+.fa {
+  color:  #a342d3;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar-laravel {
+  background:linear-gradient(to top, #00C0DD 0%, #ffffff 100%);
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  right: 0;
+  padding-left:180px;
+  /* vertical-align:left; */
+  box-shadow: 0 20px 20px -20px #333;
+}
